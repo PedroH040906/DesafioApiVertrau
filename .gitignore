@@ -1,0 +1,18 @@
+# .NET build
+bin/
+obj/
+*.log
+
+# IDEs
+.vscode/
+.vs/
+.idea/
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Config locais (não subir segredos)
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
